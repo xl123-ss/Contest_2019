@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/pro_menu_account"
+            android:title="我的账户"
+            android:icon="@drawable/ic_attach_money_black_24dp" />
+        <item android:id="@+id/pro_menu_enviroment"
+            android:title="环境指标"
+            android:icon="@drawable/ic_attach_money_black_24dp" />
+
+        <item android:id="@+id/pro_menu_enviroment2"
+            android:title="环境指标2"
+            android:icon="@drawable/ic_attach_money_black_24dp" />
+
+        <item android:id="@+id/pro_menu_out"
+            android:title="出行管理"
+            android:icon="@drawable/ic_attach_money_black_24dp" />
+
+        <item android:id="@+id/pro_menu_lifehelp"
+            android:title="生活助手"
+            android:icon="@drawable/ic_attach_money_black_24dp" />
+
+        <item android:id="@+id/pro_menu_ordercar"
+            android:title="定制班车"
+            android:icon="@drawable/ic_attach_money_black_24dp" />
+
+        <item android:id="@+id/pro_menu_myCar"
+            android:title="我的座驾"
+            android:icon="@drawable/ic_attach_money_black_24dp" />
+
+        <item android:id="@+id/pro_menu_myTraffic"
+            android:title="我的交通"
+            android:icon="@drawable/ic_attach_money_black_24dp" />
+    </group>
+</menu>

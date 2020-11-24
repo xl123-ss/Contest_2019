@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_pro7_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_format_align_justify_black_24dp"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的座驾"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前用户:XXX"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:textSize="26sp"
+                android:layout_marginRight="10dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_above="@id/ll_pro7_show"/>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/ll_pro7_show"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_below="@id/rl_pro7_up"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp">
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        <View
+            android:id="@+id/view_pro7_down"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/ll_pro7_show"/>
+
+
+        <LinearLayout
+            android:id="@+id/ll_pro7_down"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_pro7_down"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/txt_pro7_mybalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的余额"
+                android:textSize="24sp"
+                android:layout_margin="20dp"
+                android:clickable="true"
+                android:textStyle="bold"
+                android:onClick="dosubmit3" />
+            <TextView
+                android:id="@+id/txt_pro7_control"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="远程控制"
+                android:textSize="24sp"
+                android:layout_margin="20dp"
+                android:clickable="true"
+                android:onClick="dosubmit3" />
+            <TextView
+                android:id="@+id/txt_pro7_charge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="充值记录"
+                android:textSize="24sp"
+                android:layout_margin="20dp"
+                android:onClick="dosubmit3"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
+
+

@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shape_square"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="路口1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_pro8_myroad_config_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="配置信息      绿灯5秒 黄灯5秒 红灯5秒   "
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_pro8_myroad_show1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="横向状态  绿灯3秒"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/txt_pro8_myroad_show1"
+                android:background="#000"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_pro8_myroad_left"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:text="1"
+                    android:textColor="#fff"
+                    android:textSize="30sp"
+                    android:background="@drawable/shape_red"/>
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txt_pro8_myroad_show1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/txt_pro8_myroad_show1"
+                android:text="纵向状态 黄灯4秒"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/txt_pro8_myroad_show1_2"
+                android:gravity="center"
+                android:layout_alignLeft="@id/txt_pro8_myroad_show1_2"
+                android:background="#000"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_pro8_myroad_right"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:text="2"
+                    android:textColor="#fff"
+                    android:textSize="30sp"
+                    android:background="@drawable/shape_green"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="人工控制"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_pro8_crosswise1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape_square2"
+                    android:text="横向" />
+
+                <Button
+                    android:id="@+id/btn_pro8_lengthwayes1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape_square2"
+                    android:text="横向" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shape_square"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_pro8_myroad_config_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="路口2"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="配置信息      绿灯5秒 黄灯5秒 红灯5秒   "
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_pro8_myRoad_show2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="横向状态  绿灯3秒"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/txt_pro8_myRoad_show2"
+                android:background="#000"
+                android:scaleType="center"
+                android:src="@drawable/shape_green" />
+
+
+            <TextView
+                android:id="@+id/txt_pro8_myRoad_show2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/txt_pro8_myRoad_show2"
+                android:text="纵向状态 黄灯4秒"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/txt_pro8_myRoad_show2_2"
+                android:layout_alignLeft="@id/txt_pro8_myRoad_show2_2"
+                android:background="#000"
+                android:scaleType="center"
+                android:src="@drawable/shape_green" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="人工控制"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_pro8_crosswise2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape_square2"
+                    android:text="横向" />
+
+                <Button
+                    android:id="@+id/btn_pro8_lengthwayes2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape_square2"
+                    android:text="横向" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shape_square"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_pro8_myroad_config_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="路口3"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="配置信息      绿灯5秒 黄灯5秒 红灯5秒   "
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_pro8_myRoad_show3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="横向状态  绿灯3秒"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/txt_pro8_myRoad_show3"
+                android:background="#000"
+                android:scaleType="center"
+                android:src="@drawable/shape_green" />
+
+
+            <TextView
+                android:id="@+id/txt_pro8_myRoad_show3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/txt_pro8_myRoad_show3"
+                android:text="纵向状态 黄灯4秒"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/txt_pro8_myRoad_show3_2"
+                android:layout_alignLeft="@id/txt_pro8_myRoad_show3_2"
+                android:background="#000"
+                android:scaleType="center"
+                android:src="@drawable/shape_green" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="人工控制"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_pro8_crosswise3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape_square2"
+                    android:text="横向" />
+
+                <Button
+                    android:id="@+id/btn_pro8_lengthwayes3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape_square2"
+                    android:text="横向" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shape_square"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_pro8_myroad_config_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="路口1"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="配置信息      绿灯5秒 黄灯5秒 红灯5秒   "
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_pro8_myRoad_show4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="横向状态  绿灯3秒"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/txt_pro8_myRoad_show4"
+                android:background="#000"
+                android:scaleType="center"
+                android:src="@drawable/shape_green" />
+
+
+            <TextView
+                android:id="@+id/txt_pro8_myRoad_show4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/txt_pro8_myRoad_show4"
+                android:text="纵向状态 黄灯4秒"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/txt_pro8_myRoad_show4_2"
+                android:layout_alignLeft="@id/txt_pro8_myRoad_show4_2"
+                android:background="#000"
+                android:scaleType="center"
+                android:src="@drawable/shape_green" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="人工控制"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_pro8_crosswise4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape_square2"
+                    android:text="横向" />
+
+                <Button
+                    android:id="@+id/btn_pro8_lengthwayes4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape_square2"
+                    android:text="横向" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shape_square"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="路口1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_pro8_myroad_config_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="配置信息      绿灯5秒 黄灯5秒 红灯5秒   "
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_pro8_myRoad_show5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="横向状态  绿灯3秒"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/txt_pro8_myRoad_show5"
+                android:background="#000"
+                android:scaleType="center"
+                android:src="@drawable/shape_green" />
+
+
+            <TextView
+                android:id="@+id/txt_pro8_myRoad_show5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/txt_pro8_myRoad_show5"
+                android:text="纵向状态 黄灯4秒"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/txt_pro8_myRoad_show5_2"
+                android:layout_alignLeft="@id/txt_pro8_myRoad_show5_2"
+                android:background="#000"
+                android:scaleType="center"
+                android:src="@drawable/shape_green" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="人工控制"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_pro8_crosswise5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape_square2"
+                    android:text="横向" />
+
+                <Button
+                    android:id="@+id/btn_pro8_lengthwayes5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape_square2"
+                    android:text="横向" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

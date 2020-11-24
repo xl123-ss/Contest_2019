@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#9C1E5381">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_format_align_justify_black_24dp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出行管理"
+            android:layout_centerInParent="true"
+            android:textSize="40sp"
+            android:textColor="#fff"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+
+            android:id="@+id/pro4_txt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2018年3月23日"
+            android:textSize="26sp"/>
+
+        <TextView
+            android:id="@+id/pro4_txt_judge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="单号出行车辆：1 3号"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <View
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出行车辆设置："
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="26sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小车编号：1号"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="26sp"/>
+
+                <TextView
+                    android:id="@+id/pro4_txt_switch1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="关"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="26sp"/>
+
+                <Switch
+                    android:id="@+id/pro4_switch1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textOn="开"
+                    android:textOff="111"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小车编号：2号"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="26sp"/>
+
+                <TextView
+                    android:id="@+id/pro4_txt_switch2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="关"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="26sp"/>
+
+                <Switch
+                    android:id="@+id/pro4_switch2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小车编号：3号"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="26sp"/>
+
+                <TextView
+                    android:id="@+id/pro4_txt_switch3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="关"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="26sp"/>
+
+                <Switch
+                    android:id="@+id/pro4_switch3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="200dp"
+            >
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#000">
+
+
+                <ImageView
+                    android:id="@+id/pro4_ima1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/shape_red" />
+
+                <ImageView
+                    android:id="@+id/pro4_ima2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/shape_red" />
+
+                <ImageView
+                    android:id="@+id/pro4_ima3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/shape_red" />
+
+
+
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:background="#000"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

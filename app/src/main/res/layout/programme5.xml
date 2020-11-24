@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#9C1E5381">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_format_align_justify_black_24dp"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出行管理"
+                android:layout_centerInParent="true"
+                android:textSize="40sp"
+                android:textColor="#fff"/>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#12A39C9C">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/pro5_txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="19℃"
+                    android:textColor="#2196F3"
+                    android:textSize="100sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pro5_txt1"
+                    android:layout_marginTop="-21dp"
+                    android:text="今天：12-24℃"
+                    android:textColor="#2196F3"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/pro5_ima_flesh"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_toRightOf="@id/pro5_txt1"
+                    android:src="@drawable/ic_autorenew_black_24dp"
+                    android:layout_marginTop="10dp"/>
+
+
+            </RelativeLayout>
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/pro5_linechart1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今日生活指数"
+            android:textColor="#2196F3"
+            android:textSize="30sp"
+            android:layout_margin="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B5474343"/>
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#2700BCD4">
+
+                    <ImageView
+                        android:id="@+id/pro5_ima_wheather"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/qingtian"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/pro5_ima_wheather"
+                        android:text="紫外线指数"
+                        android:textColor="#03A9F4"/>
+
+
+                    <TextView
+                        android:id="@+id/pro5_txt_show1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/pro5_ima_wheather"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="中等(100)"
+
+                        android:textColor="#03A9F4"/>
+
+                    <TextView
+                        android:id="@+id/pro5_txt_show1_down"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/pro5_txt_show1"
+                        android:layout_alignLeft="@id/pro5_txt_show1"
+                        android:layout_marginTop="5dp"
+                        android:text="涂擦SPF大于15,\n\nPA+防晒护肤品"
+                        android:textSize="10sp"/>
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#2700BCD4">
+
+                    <ImageView
+                        android:id="@+id/pro5_ima_cold"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/jiaonang"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/pro5_ima_cold"
+                        android:text="感冒指数"
+                        android:textColor="#03A9F4"/>
+
+
+                    <TextView
+                        android:id="@+id/pro5_txt_show2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/pro5_ima_cold"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="较易发(5)"
+
+                        android:textColor="#03A9F4"/>
+
+                    <TextView
+                        android:id="@+id/pro5_txt_show2_down"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/pro5_txt_show2"
+                        android:layout_alignLeft="@id/pro5_txt_show2"
+                        android:layout_marginTop="5dp"
+                        android:text="风险大,极易发生感\n\n冒，请注意防护。"
+                        android:textSize="10sp"/>
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#2700BCD4">
+
+                    <ImageView
+                        android:id="@+id/pro5_ima_comfort"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/yifu"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/pro5_ima_comfort"
+                        android:text="穿衣指数"
+                        android:textColor="#03A9F4"/>
+
+
+                    <TextView
+                        android:id="@+id/pro5_txt_show3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/pro5_ima_comfort"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="舒适(21)"
+
+                        android:textColor="#03A9F4"/>
+
+                    <TextView
+                        android:id="@+id/pro5_txt_show3_down"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/pro5_txt_show3"
+                        android:layout_alignLeft="@id/pro5_txt_show3"
+                        android:layout_marginTop="5dp"
+                        android:text="建议穿长袖衬衫单裤\n\n等衣物。"
+                        android:textSize="10sp"/>
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#2700BCD4">
+
+                    <ImageView
+                        android:id="@+id/pro5_ima_sport"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/football"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/pro5_ima_sport"
+                        android:text="运动指数"
+                        android:textColor="#03A9F4"/>
+
+
+                    <TextView
+                        android:id="@+id/pro5_txt_show4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/pro5_ima_sport"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="较适宜(800)"
+
+                        android:textColor="#03A9F4"/>
+
+                    <TextView
+                        android:id="@+id/pro5_txt_show4_down"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/pro5_txt_show4"
+                        android:layout_alignLeft="@id/pro5_txt_show4"
+                        android:layout_marginTop="5dp"
+                        android:text="风力稍强，建议您进\n\n行室内运动。"
+                        android:textSize="10sp"/>
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#2700BCD4">
+
+                    <ImageView
+                        android:id="@+id/pro5_ima_air"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/air" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/pro5_ima_air"
+                        android:text="空气污染\n扩散指数"
+                        android:textColor="#03A9F4"/>
+
+
+                    <TextView
+                        android:id="@+id/pro5_txt_show5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/pro5_ima_air"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="良(10)"
+
+                        android:textColor="#03A9F4"/>
+
+                    <TextView
+                        android:id="@+id/pro5_txt_show5_down"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/pro5_txt_show5"
+                        android:layout_alignLeft="@id/pro5_txt_show5"
+                        android:layout_marginTop="5dp"
+                        android:text="气象条件有利于空气\n\n污染物扩散。"
+                        android:textSize="10sp"/>
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="整点天气实况"
+            android:textColor="#2196F3"
+            android:textSize="30sp"
+            android:layout_margin="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="1dp"
+            android:background="#B5474343"/>
+
+<!--        <com.github.mikephil.charting.charts.BarChart-->
+<!--            android:id="@+id/pro5_barchart1"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="300dp"/>-->
+
+        <FrameLayout
+            android:id="@+id/pro5_framelout"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/pro5_txt_air"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空气质量"
+                android:layout_margin="10dp"
+                android:onClick="dosubmit2"/>
+
+            <TextView
+                android:id="@+id/pro5_txt_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="温度"
+                android:layout_margin="10dp"
+                android:onClick="dosubmit2"
+                />
+
+            <TextView
+                android:id="@+id/pro5_txt_humidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="相对湿度"
+                android:layout_margin="10dp"
+                android:onClick="dosubmit2"/>
+
+
+            <TextView
+                android:id="@+id/pro5_txt_CQ2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="二氧化碳"
+                android:layout_margin="10dp"
+                android:onClick="dosubmit2"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/pro5_txt_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </ScrollView>
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

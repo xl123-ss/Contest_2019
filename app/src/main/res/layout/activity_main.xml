@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/tooler"/>
+
+    <Button
+        android:id="@+id/btn_error1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="改错1"
+        android:onClick="dosubmit"/>
+
+    <Button
+        android:id="@+id/btn_error2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="改错2"
+        android:onClick="dosubmit"/>
+
+    <Button
+        android:id="@+id/btn_error3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="改错3"
+        android:onClick="dosubmit"/>
+
+    <Button
+        android:id="@+id/btn_programme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="编程综合"
+        android:onClick="dosubmit"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            android:id="@+id/ll_pro7_balance_show1"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="#D01CAA3A"
+            android:layout_margin="20dp"
+            android:onClick="dosubmit3">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1号小车"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:id="@+id/txt_pro7_balance_show1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="正常"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/txt_pro7_balance_write1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_oval_white"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:text="100"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="0dp" />
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_pro7_balance_show2"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="#D01CAA3A"
+            android:layout_margin="20dp"
+            android:onClick="dosubmit3">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2号小车"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:id="@+id/txt_pro7_balance_show2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="正常"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_pro7_balance_write2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_oval_white"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:text="100"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            android:id="@+id/ll_pro7_balance_show3"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="#D01CAA3A"
+            android:layout_margin="20dp"
+            android:onClick="dosubmit3">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2号小车"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:id="@+id/txt_pro7_balance_show3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="正常"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/txt_pro7_balance_write3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_oval_white"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:text="100"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="0dp" />
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_pro7_balance_show4"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="#CBF44336"
+            android:layout_margin="20dp"
+            android:onClick="dosubmit3">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4号小车"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:id="@+id/txt_pro7_balance_show4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="预警"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_pro7_balance_write4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_oval_white"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:text="80"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
